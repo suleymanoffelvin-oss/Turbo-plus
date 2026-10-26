@@ -182,7 +182,7 @@ export default async function ListingDetailPage({
             {/* Contact buttons */}
             <div className="space-y-2">
               <a
-                href={`tel:${listing.phone || "+994501234567"}`}
+                href="tel:+994501234567"
                 className="flex items-center justify-center gap-2 w-full h-12 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-xl transition"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
